@@ -8,12 +8,9 @@
 This repository contains example Packer configurations and Azure DevOps Pipeline YAML to orchestrate the provisioning of vSphere virtual machine templates.  For more information on how to utilise this check out my [blog post](https://stephanmctighe.com/*****)
 
 
-### Available Builds
+## Available Builds
 * Windows Server 2022 | Standard & Datacenter | Core & Desktop
 * Windows Server 2019 | Standard & Datacenter | Core & Desktop
-
-This repository contains example Packer configurations and Azure DevOps Pipeline YAML to orchestrate the provisioning of vSphere virtual machine templates.  For more information on how to utilise this check out my [blog post](https://stephanmctighe.com/*****)
-
 
 ## Structure
 ```console
@@ -33,7 +30,7 @@ This repository contains example Packer configurations and Azure DevOps Pipeline
 ├── variables.pkr.hcl
 ```
 
- ## Things to Change
+ ## Variables to Customise
  
  Values to change in `*.pkrvars.hcl`
  
