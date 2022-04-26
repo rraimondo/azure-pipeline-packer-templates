@@ -10,7 +10,7 @@ Contains example Packer configurations and Azure DevOps Pipeline YAML
 
 
 ## Structure
-```
+```console
 ├── config
 │   ├── windows
 |   |   └── autounattend.pkrtpl.hcl
@@ -26,3 +26,27 @@ Contains example Packer configurations and Azure DevOps Pipeline YAML
 ├── build.pkr.hcl
 ├── variables.pkr.hcl
 ```
+
+ ## Things to Change
+ 
+ Values to change in `*.pkrvars.hcl`
+ 
+ ```hcl
+    vm_inst_os_kms_key_standard   = "<standard-kms-key>"
+    vm_inst_os_kms_key_datacenter = "<datacenter-kms-key>"
+    vm_guest_os_timezone          = "<time-zone>"
+    vm_inst_os_iso_path           = "[<datastore-name>] /Media/windows_server_20XX.iso"
+    vm_inst_vmtools_iso_path      = "[<datastore-name>] /Media/VMTools/windows.iso"
+  ```
+    
+Values to change in `variables.pkr.hcl` (Change the value for the default parameter)
+
+ ```hcl
+    variable "default_vsphere_server"
+    variable "default_vsphere_compute_cluster"
+    variable "default_vsphere_datacenter"
+    variable "default_vsphere_datastore"
+    variable "default_vsphere_folder"
+    variable "default_vsphere_portgroup_name"
+    variable "default_content_library_destination"
+  ```
