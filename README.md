@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/65562694/165377635-7e07394b-aa92-43f7-bbc2-c267d4e1863f.png" style="width:100px;height:100px;"><img src="https://github.com/smctighevcp/Packer/blob/main/packer-icon.svg" style="width:100px;height:100px;">
+<img src="https://user-images.githubusercontent.com/65562694/165377635-7e07394b-aa92-43f7-bbc2-c267d4e1863f.png" style="width:100px;height:100px;">    <img src="https://github.com/smctighevcp/Packer/blob/main/packer-icon.svg" style="width:100px;height:100px;">
 
 # Azure Pipeline Packer Templates Examples
 <img alt="Packer" src="https://img.shields.io/badge/Packer-1.7.0+-blue?style=for-the-badge&logo=packer">  <img alt="VMware vSphere 7.0 Update 2+" src="https://img.shields.io/badge/VMware%20vSphere-7.0%20Update%202+-blue?style=for-the-badge">
