@@ -28,6 +28,8 @@ This repository contains example Packer configurations and Azure DevOps Pipeline
 │   ├── windows-server-2022.pkrvars.hcl
 ├── build.pkr.hcl
 ├── variables.pkr.hcl
+├── Windows-Server-2022-Core-example.yml
+├── Windows-Server-2022-DExp-example.yml
 ```
 
  ## Variables to Customise
