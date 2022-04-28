@@ -1,4 +1,13 @@
 #Windows Server 2022 Desktop
+ schedules:
+   - cron: "30 12 26 * *"
+     always: true
+     displayName: Monthly Schedule
+     branches:
+        include:
+          -  main
+ pr: none
+ trigger: none
  jobs:
    - job: Windows_Server_2022_Desktop
      pool:
