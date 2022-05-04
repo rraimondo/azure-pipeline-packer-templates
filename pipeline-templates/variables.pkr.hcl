@@ -166,6 +166,34 @@ variable "vm_inst_os_kms_key_datacenter" {
   description = "OS Key"
 }
 
+// HTTP Settings
+
+variable "default_http_directory" {
+    type = string
+    default = "config"
+    description = "Directory for Boot Files"
+    }
+variable "default_http_file"{
+    type = string
+    default = "dummy_http_file"
+    description = "Boot File for Linux or a dummy file for Windows"
+}
+variable "default_http_port_min"{
+    type = number
+    default = 8000
+    description = "Minimum port number for webserver"
+    }
+variable "default_http_port_max"{
+    type = number
+    default = 8000
+    description = "Maximum port number for webserver"
+    }
+variable "default_http_ip"{
+    type = number
+    default = "xx.xx.xx.xx"
+    description = "DevOps Deployment Host"
+    }
+
 // Guest Operating System Metadata
 variable "vm_guest_os_language" {
   type    = string
