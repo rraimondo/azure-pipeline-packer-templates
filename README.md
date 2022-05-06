@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This repository contains example Packer configurations and Azure DevOps Pipeline YAML to orchestrate the provisioning of vSphere virtual machine templates.  For more information on how to utilise this check out my [blog post](https://stephanmctighe.com/*****)
+This repository contains example Packer configurations and Azure DevOps Pipeline YAML to orchestrate the provisioning of vSphere virtual machine templates.  For more information on how to utilise this check out my [blog post](https://stephanmctighe.com/*****).
 
 
 ## Available Builds
@@ -33,9 +33,9 @@ This repository contains example Packer configurations and Azure DevOps Pipeline
 ```
 
  ## Variables to Customise
- 
+
  Values to change in `*.pkrvars.hcl`
- 
+
  ```hcl
     vm_inst_os_kms_key_standard   = "<standard-kms-key>"
     vm_inst_os_kms_key_datacenter = "<datacenter-kms-key>"
@@ -43,7 +43,7 @@ This repository contains example Packer configurations and Azure DevOps Pipeline
     vm_inst_os_iso_path           = "[<datastore-name>] /Media/windows_server_20XX.iso"
     vm_inst_vmtools_iso_path      = "[<datastore-name>] /Media/VMTools/windows.iso"
   ```
-    
+
 Values to change in `variables.pkr.hcl` (Change the value for the default parameter)
 
  ```hcl
