@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This repository contains example Packer configurations and Azure DevOps Pipeline YAML to orchestrate the provisioning of vSphere virtual machine templates.  For more information on how to utilise this check out my [blog post](https://stephanmctighe.com/2022/12/13/deploying-vsphere-templates-with-packer-amp-azure-devops).
+This repository contains example Packer configurations and Azure DevOps Pipeline YAML to orchestrate the provisioning of vSphere virtual machine templates.  For more information on how to utilise this check out my [blog post](https://stephanmctighe.com/2022/12/13/deploying-vsphere-templates-with-packer-amp-azure-devops/).
 
 
 ## Available Builds
